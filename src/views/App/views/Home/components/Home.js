@@ -1,7 +1,7 @@
-import "./Homepage.css";
+import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function Homepage() {
+export default function Home() {
   return (
     <div className="App">
       <header className="App-header">
