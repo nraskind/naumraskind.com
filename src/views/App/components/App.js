@@ -8,7 +8,7 @@ import SideNav, {
   NavText,
 } from "@trendmicro/react-sidenav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Homepage from "../views/Homepage";
+import Home from "../views/Home";
 import Projects from "../views/Projects";
 import Coursework from "../views/Coursework";
 
@@ -21,8 +21,6 @@ export default function App() {
     <>
       <SideNav
         onSelect={(selected) => {
-          // Add your code here
-          console.log(selected);
           const navigationLink = "/" + selected;
           navigate(navigationLink);
         }}
@@ -51,8 +49,8 @@ export default function App() {
       </SideNav>
       <main>
         <Routes>
-          <Route path="/" exact element={<Homepage />} />
-          <Route path="/home" element={<Homepage />} />
+          <Route path="/" exact element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/coursework" element={<Coursework />} />
         </Routes>
