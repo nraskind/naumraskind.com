@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 import App from "./views/App";
 import reportWebVitals from "./reportWebVitals";
@@ -12,14 +13,29 @@ import { library } from "@fortawesome/fontawesome-svg-core";
  ADD TO THE IMPORT AND LIBRARY STATEMENTS
 */
 import { fab, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-library.add(fab, faGithub, faLinkedin, faEnvelope);
+import {
+  faEnvelope,
+  faGraduationCap,
+  faHouse,
+  faLaptopCode,
+} from "@fortawesome/free-solid-svg-icons";
+library.add(
+  fab,
+  faGithub,
+  faLinkedin,
+  faEnvelope,
+  faHouse,
+  faLaptopCode,
+  faGraduationCap
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 
