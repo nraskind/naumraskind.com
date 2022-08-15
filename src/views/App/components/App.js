@@ -24,6 +24,7 @@ export default function App() {
           const navigationLink = "/" + selected;
           navigate(navigationLink);
         }}
+        style={{ position: "fixed" }}
       >
         <Toggle />
         <Nav defaultSelected="home">
