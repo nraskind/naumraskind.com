@@ -2,11 +2,8 @@ span a {
   margin: 50px;
 }
 
-.App {
+.Home {
   text-align: center;
-}
-
-.App-header {
   background-color: lightcoral;
   min-height: 100vh;
   display: flex;
