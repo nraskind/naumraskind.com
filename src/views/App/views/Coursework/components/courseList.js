@@ -31,10 +31,9 @@ const courseList = [
     courseCode: "EECS 445",
     semester: "Winter 2022",
     topics: [
-      "Supervised Learning",
-      "Neural Networks",
-      "Unsupervised Learning",
-      "Adaboost",
+      "Supervised learning: neural networks, regression, kernal methods, regularization",
+      "Unsupervized learning: clustering, density estimation, dimensionality, and reduction",
+      "Python libraries: numpy, pytorch, and sklearn",
     ],
     projects: ["Reddit post sentiment classifier", "Dog breed classifier"],
   },
