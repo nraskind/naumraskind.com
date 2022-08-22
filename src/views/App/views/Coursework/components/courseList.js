@@ -38,16 +38,6 @@ const courseList = [
     projects: ["Reddit post sentiment classifier", "Dog breed classifier"],
   },
   {
-    courseName: "Theory of Computation",
-    courseCode: "EECS 376",
-    semester: "Fall 2021",
-    topics: [
-      "Algorithm design",
-      "Probability and cryptography",
-      "Decidability and polynomial time computability",
-    ],
-  },
-  {
     courseName: "Introduction to Computer Organization",
     courseCode: "EECS 370",
     semester: "Fall 2021",
@@ -60,6 +50,16 @@ const courseList = [
       "Assembler and linker",
       "Cache simulator",
       "Multiplication and combination in assembly",
+    ],
+  },
+  {
+    courseName: "Theory of Computation",
+    courseCode: "EECS 376",
+    semester: "Fall 2021",
+    topics: [
+      "Algorithm design",
+      "Probability and cryptography",
+      "Decidability and polynomial time computability",
     ],
   },
   {
