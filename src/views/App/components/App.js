@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Home from "../views/Home";
 import Projects from "../views/Projects";
 import Coursework from "../views/Coursework";
+import Jobs from "../views/Jobs";
 
 // Be sure to include styles at some point, probably during your bootstraping
 import "@trendmicro/react-sidenav/dist/react-sidenav.css";
@@ -46,6 +47,12 @@ export default function App() {
             </NavIcon>
             <NavText>Coursework</NavText>
           </NavItem>
+          <NavItem eventKey="jobs">
+            <NavIcon>
+              <FontAwesomeIcon icon="fa-solid fa-briefcase" size="lg" />
+            </NavIcon>
+            <NavText>Jobs</NavText>
+          </NavItem>
         </Nav>
       </SideNav>
       <main>
@@ -54,6 +61,7 @@ export default function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/coursework" element={<Coursework />} />
+          <Route path="/jobs" element={<Jobs />} />
         </Routes>
       </main>
     </>
