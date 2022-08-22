@@ -14,9 +14,11 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 */
 import { fab, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
+  faBriefcase,
   faEnvelope,
   faGraduationCap,
   faHouse,
+  faInfoCircle,
   faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons";
 library.add(
@@ -26,7 +28,9 @@ library.add(
   faEnvelope,
   faHouse,
   faLaptopCode,
-  faGraduationCap
+  faGraduationCap,
+  faBriefcase,
+  faInfoCircle
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
